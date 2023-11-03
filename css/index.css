@@ -1,0 +1,993 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #fff;
+}
+.indexHeader {
+  width: 100%;
+  height: 600px;
+  background: url('../images/1_01.jpg') no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.navContainer {
+  width: 62%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 17.1%;
+  margin-top: 13px;
+}
+.navLeftBox img {
+  transform: scale(0.6);
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul li {
+  color: white;
+  list-style: none;
+  margin-right: 45px;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.maskContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9vw;
+}
+.maskContainer .maskContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 40px 100px;
+}
+.maskContainer .maskContent p:nth-child(1) {
+  font-size: 40px;
+  font-weight: 300;
+}
+.maskContainer .maskContent p:nth-child(2) {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.maskContainer .maskContent p:nth-child(3) {
+  font-size: 27px;
+  font-weight: 300;
+}
+.aboutUsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutUsContainer .aboutUsLeftBox {
+  background-color: #6ab743;
+  height: 400px;
+  margin-top: -4px;
+}
+.aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContentTop p:nth-child(1) {
+  font-size: 18px;
+}
+.aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContentTop p:nth-child(2) {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+.aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContentTop p:nth-child(3) {
+  width: 45px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: white;
+}
+.aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContent {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  margin-left: 300px;
+  margin-top: 90px;
+}
+.aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContent .aboutUsLeftBoxContentCenter {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContent .aboutUsLeftBoxContentCenter p {
+  text-indent: 20px;
+}
+.aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContentRight button {
+  color: white;
+  width: 100px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0px;
+  border: 1px solid white;
+  background-color: #6ab743;
+}
+.aboutUsContainer .aboutUsRightBox img {
+  height: 400px;
+}
+.caseShowContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.caseShowContainer .caseShowContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.caseShowContainer .caseShowContent .caseShowContentTop p:nth-child(1) {
+  font-size: 30px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTop p:nth-child(2) {
+  font-size: 35px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTop p:nth-child(3) {
+  width: 60px;
+  height: 3px;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageLeftBox {
+  position: relative;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageLeftBox img {
+  width: 252px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageLeftBox .mask1Container {
+  position: absolute;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 25px 0px;
+  padding-left: 3px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageLeftBox .mask1Container .mask1Tail {
+  margin-top: 10px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageLeftBox .mask1Container .mask1Tail p:nth-child(2) {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: -3px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translate(-12px) scale(1.03, 1);
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop .mask3Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 25px 0px;
+  padding-left: 3px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop .mask3Container .mask3Top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 2px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop .mask3Container .mask3Tail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 2px;
+  margin-top: 10px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop .mask3Container .mask3Tail p:nth-child(2) {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop .tp1 {
+  width: 240px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop .tp2 {
+  width: 580px;
+  height: 240px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative !important;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .tp3 {
+  width: 590px;
+  height: 260px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .tp4 {
+  width: 255px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .mask2Container {
+  position: absolute;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 25px 0px;
+  padding-left: 3px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .mask2Container .mask2Tail {
+  margin-top: 10px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .mask2Container .mask2Tail p:nth-child(2) {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .mask4Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  border-bottom: 8px solid white;
+  color: white;
+  padding: 25px 0px;
+  padding-left: 3px;
+  margin-left: 30px;
+  margin-top: 30px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .mask4Container .mask4Tail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .mask4Container .mask4Tail p:nth-child(1) {
+  font-size: 20px;
+}
+.caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .mask4Container .mask4Tail p:nth-child(2) {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.ideaContainer {
+  width: 100%;
+  height: 400px;
+  background: url('../images/7_10.jpg') no-repeat;
+  background-size: cover;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ideaContainer .ideaTop {
+  color: white;
+}
+.ideaContainer .ideaTop p:nth-child(1) {
+  font-size: 20px;
+}
+.ideaContainer .ideaTop p:nth-child(2) {
+  font-size: 25px;
+}
+.ideaContainer .ideaTop p:nth-child(3) {
+  width: 50px;
+  height: 3px;
+  background-color: white;
+  margin-top: 7px;
+}
+.ideaContainer .ideaTail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  margin-top: 40px;
+  padding: 40px;
+}
+.ideaContainer .ideaTail .ideaTailItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 60px;
+}
+.ideaContainer .ideaTail .ideaTailItem .blIcon img {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 10px;
+}
+.ideaContainer .ideaTail .ideaTailItem p:nth-child(2) {
+  color: black;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.ideaContainer .ideaTail .ideaTailItem p:nth-child(3),
+.ideaContainer .ideaTail .ideaTailItem p:nth-child(4) {
+  color: #858585;
+  font-size: 13px;
+  margin-top: 3px;
+}
+.inClassContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.inClassContainer .inClassContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inClassContainer .titleContainer {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+.inClassContainer .titleContainer p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.inClassContainer .inClassTail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inClassContainer .inClassTail .inClassTailItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.inClassContainer .inClassTail .inClassTailItem .inClassTailImage img {
+  width: 420px;
+  height: 200px;
+}
+.inClassContainer .inClassTail .inClassTailItem .inClassIntroduct {
+  border: 1px solid #e0e0e0;
+  border-top: none;
+  padding: 0px 13px;
+}
+.inClassContainer .inClassTail .inClassTailItem .inClassIntroduct p {
+  color: #757575;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 150px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.last {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.last .footTail {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #2b2b2b;
+  padding: 20px 0px;
+  font-size: 12px;
+}
+.last .footTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #373737;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.last .footTop .footTopContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #373737;
+}
+.last .footTop .footTopContent .footTopContentLeftBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.last .footTop .footTopContent .footTopContentLeftBox .footTopContentLeftBoxItem {
+  margin-right: 60px;
+}
+.last .footTop .footTopContent .footTopContentLeftBox .footTopContentLeftBoxItem:nth-child(3) {
+  margin-top: 16px;
+}
+.last .footTop .footTopContent .footTopContentLeftBox p:nth-child(1) {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.last .footTop .footTopContent .footTopContentLeftBox p:nth-child(2),
+.last .footTop .footTopContent .footTopContentLeftBox p:nth-child(3),
+.last .footTop .footTopContent .footTopContentLeftBox p:nth-child(4),
+.last .footTop .footTopContent .footTopContentLeftBox p:nth-child(5) {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.last .footTop .footTopContent .footTopContentRightBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-left: 20px;
+}
+.last .footTop .footTopContent .footTopContentRightBox .qrcode {
+  margin-right: 40px;
+}
+.last .footTop .footTopContent .footTopContentRightBox .qrcode img {
+  width: 100px;
+  height: 100px;
+}
+.last .footTop .footTopContent .footTopContentRightBox .qrcode p {
+  font-size: 13px;
+}
+.last .footTop .footTopContent .footTopContentRightBox .contact p:nth-child(1),
+.last .footTop .footTopContent .footTopContentRightBox .contact p:nth-child(3) {
+  font-size: 12px;
+}
+.last .footTop .footTopContent .footTopContentRightBox .contact p:nth-child(2) {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+@media (max-width: 376px) {
+  .indexHeader {
+    height: 191px;
+  }
+  .pcNavContainer {
+    display: none !important;
+    position: relative;
+  }
+  .phoneNavContainer {
+    display: block !important;
+  }
+  .phoneNavContainer .navContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -28px;
+    margin-top: -14px;
+  }
+  .phoneNavContainer .navRightBox {
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .phoneNavContainer .cate {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    transform: translate(120px);
+  }
+  .phoneNavContainer .cate img {
+    width: 35px;
+    height: 30px;
+  }
+  .phoneNavContainer .navRightBox {
+    width: 69px;
+    margin-left: 200px;
+    margin-top: -8px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
+  ul li {
+    margin-left: 7px;
+    margin-right: 0px;
+  }
+  .maskContainer .maskContent {
+    margin-top: -20px;
+    padding: 0px;
+  }
+  .maskContainer .maskContent p:nth-child(1) {
+    font-size: 26px;
+  }
+  .maskContainer .maskContent p:nth-child(2) {
+    font-size: 23px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .maskContainer .maskContent p:nth-child(3) {
+    font-size: 20px;
+  }
+  .aboutUsContainer {
+    flex-wrap: wrap;
+  }
+  .aboutUsContainer .aboutUsRightBox img {
+    height: 196px !important;
+  }
+  .aboutUsContainer .aboutUsLeftBox {
+    height: 304px;
+  }
+  .aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContent {
+    width: 84%;
+    margin-left: 7px;
+    margin-top: 0px;
+    padding: 10px;
+  }
+  .caseShowContainer {
+    margin-top: 0px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTop p:nth-child(1) {
+    font-size: 20px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTop p:nth-child(2) {
+    font-size: 23px;
+  }
+  .caseShowContentTop {
+    transform: translate(7px, 10px);
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTop p:nth-child(2) {
+    font-size: 18px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTop p:nth-child(3) {
+    background-color: black;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageLeftBox img {
+    width: 350px;
+    height: 300px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageLeftBox {
+    margin-left: -20px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop {
+    flex-wrap: wrap;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop .tp1 {
+    width: 350px;
+    height: 159px;
+    margin: 0px auto;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop .tp2 {
+    width: 350px;
+    height: 199px;
+    margin: 0px auto;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop .mask3Container {
+    top: 152px;
+    right: 33px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail {
+    flex-wrap: wrap;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .mask2Container {
+    right: 36px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .mask4Container {
+    top: 290px;
+    right: 131px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .tp3 {
+    width: 350px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .tp4 {
+    width: 350px;
+    height: 200px;
+  }
+  .ideaContainer {
+    height: 451px;
+  }
+  .ideaContainer .ideaTop {
+    margin-left: 68px;
+    transform: translate(0px, 13px);
+  }
+  .ideaContainer .ideaTail {
+    margin-left: 20px;
+  }
+  .ideaContainer .ideaTail .ideaTailItem {
+    margin-right: 32px;
+  }
+  .inClassContainer .inClassTail {
+    flex-wrap: wrap;
+  }
+  .inClassContainer .inClassTail .inClassTailItem .inClassIntroduct p {
+    padding-right: 63px;
+  }
+  .inClassContainer .inClassTail {
+    flex-wrap: wrap;
+  }
+  .last .footTop {
+    padding-bottom: 32px;
+  }
+  .last .footTop .footTopContent .footTopContentLeftBox {
+    transform: translate(44px, 0px);
+  }
+  .last .footTop .footTopContent {
+    flex-wrap: wrap;
+  }
+  .last .footTop .footTopContent .footTopContentRightBox {
+    margin-left: 21px;
+  }
+  .last .footTop .footTopContent .footTopContentRightBox .qrcode {
+    margin-right: 15px;
+  }
+}
+@media (min-width: 377px) and (max-width: 769px) {
+  .indexHeader {
+    height: 241px;
+  }
+  .pcNavContainer {
+    display: none !important;
+    position: relative;
+  }
+  .phoneNavContainer {
+    display: block !important;
+  }
+  .phoneNavContainer .navContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -28px;
+    margin-top: -14px;
+  }
+  .phoneNavContainer .navRightBox {
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .phoneNavContainer .cate {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    transform: translate(120px);
+  }
+  .phoneNavContainer .cate img {
+    width: 45px;
+    height: 42px;
+  }
+  .phoneNavContainer .navRightBox {
+    width: 118px;
+    margin-left: 379px;
+    margin-top: -8px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
+  ul li {
+    font-size: 18px;
+    margin-left: 7px;
+    margin-right: 0px;
+  }
+  .maskContainer .maskContent {
+    margin-top: -64px;
+    padding: 30px;
+  }
+  .maskContainer .maskContent p:nth-child(1) {
+    font-size: 35px;
+  }
+  .maskContainer .maskContent p:nth-child(2) {
+    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .maskContainer .maskContent p:nth-child(3) {
+    font-size: 23px;
+  }
+  .aboutUsContainer {
+    flex-wrap: wrap;
+  }
+  .aboutUsContainer .aboutUsRightBox img {
+    height: 400px !important;
+  }
+  .aboutUsContainer .aboutUsLeftBox {
+    height: 369px;
+  }
+  .aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContent {
+    width: 84%;
+    margin-left: 7px;
+    margin-top: 0px;
+    padding: 10px;
+  }
+  .aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContentRight button {
+    width: 144px;
+    padding: 20px 0px;
+    font-size: 20px;
+  }
+  .aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContent .aboutUsLeftBoxContentCenter {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContent .aboutUsLeftBoxContentTop p:nth-child(1) {
+    font-size: 45px;
+  }
+  .caseShowContainer {
+    margin-top: 0px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTop p:nth-child(1) {
+    font-size: 42px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTop p:nth-child(2) {
+    font-size: 32px;
+  }
+  .caseShowContentTop {
+    transform: translate(7px, 10px);
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTop p:nth-child(2) {
+    font-size: 18px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTop p:nth-child(3) {
+    width: 67px;
+    background-color: black;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageLeftBox img {
+    width: 626px;
+    height: 300px;
+    margin-left: -83px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageLeftBox .mask1Container {
+    font-size: 25px;
+    margin-left: -35px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageLeftBox .mask1Container .mask1Tail p:nth-child(2) {
+    font-size: 17px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageLeftBox {
+    margin-left: -20px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop {
+    flex-wrap: wrap;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop p:nth-child(1) {
+    font-size: 25px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop p:nth-child(2) {
+    font-size: 29px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop p:nth-child(3) {
+    font-size: 30px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop .tp1 {
+    width: 569px;
+    height: 248px;
+    margin: 0px auto;
+    margin-left: 57px;
+    margin-top: 20px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop .tp2 {
+    width: 562px;
+    height: 271px;
+    margin: 0px auto;
+    margin-left: 59px;
+    margin-top: 20px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop .mask3Container {
+    top: 272px;
+    right: 160px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail {
+    flex-wrap: wrap;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .mask2Container {
+    right: 173px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .mask4Container {
+    top: 290px;
+    right: 329px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .mask4Container .mask4Tail p:nth-child(1) {
+    font-size: 31px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .mask4Container .mask4Tail p:nth-child(2) {
+    font-size: 22px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .tp3 {
+    width: 573px;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .tp4 {
+    width: 570px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .mask2Top {
+    font-size: 20px;
+  }
+  .ideaContainer .ideaTop {
+    margin-left: 9px;
+    transform: translate(0px, 13px);
+  }
+  .ideaContainer .ideaTail {
+    margin-left: -41px;
+  }
+  .ideaContainer .ideaTail .ideaTailItem {
+    margin-right: 32px;
+  }
+  .inClassContainer .inClassTail {
+    flex-wrap: wrap;
+  }
+  .inClassContainer .inClassTail .inClassTailItem {
+    margin-left: 156px;
+  }
+  .inClassContainer .inClassTail .inClassTailItem .inClassIntroduct {
+    padding: 0px 60px;
+  }
+  .inClassContainer .inClassTail .inClassTailItem .inClassTailImage img {
+    width: 459px;
+  }
+  .inClassContainer .inClassTail .inClassTailItem .inClassIntroduct p {
+    padding-right: 85px;
+  }
+  .inClassContainer .inClassTail {
+    flex-wrap: wrap;
+  }
+  .last .footTop {
+    padding-bottom: 32px;
+  }
+  .last .footTop .footTopContent .footTopContentLeftBox {
+    transform: translate(75px, 0px);
+  }
+  .last .footTop .footTopContent .footTopContentLeftBox p:nth-child(2) {
+    font-size: 19px;
+  }
+  .last .footTop .footTopContent .footTopContentLeftBox p:nth-child(1) {
+    font-size: 31px;
+  }
+  .last .footTop .footTopContent .footTopContentLeftBox p:nth-child(3) {
+    font-size: 17px;
+  }
+  .last .footTop .footTopContent {
+    flex-wrap: wrap;
+  }
+  .last .footTop .footTopContent .footTopContentRightBox {
+    margin-left: 63px;
+  }
+  .last .footTop .footTopContent .footTopContentRightBox .contact p:nth-child(2) {
+    font-size: 27px;
+  }
+  .last .footTop .footTopContent .footTopContentRightBox .contact p:nth-child(1) {
+    font-size: 17px;
+  }
+  .last .footTop .footTopContent .footTopContentRightBox .qrcode {
+    margin-right: 15px;
+  }
+  .last .footTop .footTopContent .footTopContentRightBox .qrcode p {
+    font-size: 21px;
+  }
+  .last .footTop .footTopContent .footTopContentRightBox .qrcode img {
+    width: 200px;
+    height: 200px;
+  }
+  .last .footTail {
+    font-size: 15px;
+  }
+}
+@media (min-width: 770px) and (max-width: 1025px) {
+  .navContainer {
+    width: 74%;
+  }
+  .aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContent {
+    width: 70%;
+  }
+  .aboutUsContainer .aboutUsLeftBox {
+    height: 352px;
+  }
+  .aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContent {
+    transform: translate(-200px, -90px);
+  }
+  .aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContent .aboutUsLeftBoxContentCenter p {
+    line-height: 25px;
+  }
+  .aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContent .aboutUsLeftBoxContentCenter {
+    font-size: 19px;
+  }
+  .aboutUsContainer .aboutUsLeftBox {
+    height: 351px;
+  }
+  .aboutUsContainer .aboutUsLeftBox .aboutUsLeftBoxContentRight button {
+    font-size: 20px;
+  }
+  .aboutUsContainer .aboutUsRightBox img {
+    width: 474px;
+    height: 352px;
+  }
+  .caseShowContainer .caseShowContent {
+    transform: translate(41px, 10px);
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTop .mask3Container {
+    right: 160px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageRightBox .caseImageRightBoxTail .mask4Container {
+    right: 97px;
+  }
+  .caseShowContainer .caseShowContent .caseShowContentTail .caseImageLeftBox .mask1Container {
+    margin-left: 62px;
+  }
+  .ideaContainer .ideaTail {
+    margin-left: -29px;
+  }
+  .ideaContainer .ideaTop {
+    margin-left: -69px;
+  }
+  .last .footTop .footTopContent .footTopContentLeftBox p:nth-child(2) {
+    font-size: 17px;
+  }
+  .last .footTop .footTopContent .footTopContentLeftBox p:nth-child(2),
+  .last .footTop .footTopContent .footTopContentLeftBox p:nth-child(3),
+  .last .footTop .footTopContent .footTopContentLeftBox p:nth-child(4),
+  .last .footTop .footTopContent .footTopContentLeftBox p:nth-child(5) {
+    font-size: 18px;
+  }
+  .last .footTail {
+    font-size: 15px;
+  }
+  .last .footTop .footTopContent .footTopContentLeftBox p:nth-child(1) {
+    font-size: 22px;
+  }
+  .last .footTop .footTopContent .footTopContentRightBox .contact p:nth-child(1) {
+    font-size: 16px;
+  }
+}
